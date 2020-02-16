@@ -345,7 +345,6 @@
 <li>(Optional) <a href="https://www.romhacking.net/utilities/598/">xDelta Patcher</a> </li>
 </ul>
 <hr />
-<p><strong>Please note that Twilightmenu++ now applies AP patches to most games, however, you're free to manually apply them yourself, especially if you're using romhacks.</strong></p>
 <p><strong>Click <a href="https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/edit?usp=drivesdk">here</a> to see if your game requires AP patching or not</strong></p>
 <hr />
 <p><strong>Note that you can skip Section I if you've already dumped your cart to an untrimmed format</strong></p>
@@ -355,50 +354,34 @@
 <p><span style="color:gray"> If GodMode9 1.8.0 hangs to a splash screen, has blank screen(s), or its just not booting at all, make a copy of the <code>GodMode9.firm</code> and rename this copy to whatever you'd like, so after that, you will have <strong>two</strong> .firm files in <code>luma/payloads</code>.</p>
 </blockquote>
 </li>
-</ol>
 <p><img alt="" src="../img/feXDLre.png?1" /></p>
-<ol>
 <li>Navigate over <code>[C:] GAMECART</code> and press A on it.</li>
-</ol>
 <p><img alt="" src="../img/9OrCm6U.png?1" /> </p>
 <p><strong>You will most likely be seeing 2 files (<code>trim.nds</code> and <code>.nds</code>)</strong></p>
-<ol>
 <li>Hover your <code>.nds</code> <strong>NOT your <code>.trim.nds</code></strong>, if you continue this guide with the trimmed rom, <strong>you will not be able to ap patch your rom due to the software not recognizing it correctly</strong>  and press A on it.</li>
-</ol>
 <p><img alt="" src="../img/1MuuiOj.png?1" /></p>
-<ol>
 <li>Press A on <code>Copy to gm9/out</code></li>
-</ol>
 <p><img alt="" src="../img/DwTEzmF.png" /></p>
-<ol>
 <li>Your rom will now be in <code>SD:/gm9/out</code></li>
 </ol>
 <h3 id="section-ii-patching">Section II: Patching</h3>
 <ol>
 <li>Find your rom in <code>SD:/gm9/out</code></li>
-</ol>
 <p><img alt="" src="../img/FnrzBpS.png" /></p>
 <blockquote>
 <p><span style="color:gray"> if you planned to use your sd card at the same time, you can move your rom onto your PC but for the sake of simplicity, I'll keep it there.</p>
 </blockquote>
-<ol>
 <li>Extract the contents of the 7z of DS-Scene (since the files aren't in a folder, I'd say you make a new folder for them so you dont mix the files with your other stuff.)</li>
-</ol>
 <p><img alt="" src="../img/Xi8HXzT.png" /></p>
-<ol>
 <li>Go to the folder you've extracted the contents to and double click <code>DS-Scene Rom Tool.exe</code></li>
-</ol>
 <p><img alt="" src="../img/w1opT2S.png" /></p>
-<ol>
 <li>You will now be in DS-Scene. <strong>DO NOT UPDATE THE AP DATABASE</strong> , that will download an outdated version and some games wont be supported anymore.</li>
-</ol>
 <p><img alt="" src="../img/0xcnMdd.png?2" /></p>
-<ol>
 <li>Click <code>File -&gt; Open File...</code> and select the rom that you've dumped.</li>
-</ol>
 <p><img alt="" src="../img/JgOFCVa.png" /></p>
 <hr />
 <h1 id="note-that-the-other-steps-will-vary-depending-if-your-game-has-an-ap-patch-available-in-ds-scenes-database">Note that the other steps will vary depending if your game has an ap patch available in DS-Scene's database.</h1>
+</ol>
 <hr />
 <h2 id="if-it-is-supported-by-ds-scene">If it is supported by DS-Scene:</h2>
 <blockquote>
@@ -406,30 +389,21 @@
 </blockquote>
 <ol>
 <li>Move to the <code>Export</code> tab.</li>
-</ol>
 <p><img alt="" src="../img/wehPJLQ.png" /></p>
-<ol>
 <li>(Optional) Enable <code>Trim Garbage</code> and then  <code>Safe Trim</code> so the rom will be trimmed in size and be AP patched.</li>
-</ol>
 <p><img alt="" src="../img/zBZV8qG.png" /></p>
-<ol>
 <li><strong>Make sure <code>Apply AP Patch</code> is enabled.</strong></li>
-</ol>
 <p><img alt="" src="../img/HuRB3DR.png" /></p>
-<ol>
 <li>Don't change the <code>Repack Options</code> <blockquote>
 <p><span style="color:gray"> <code>No repack (.nds|.3ds)</code> by default)</p>
 </blockquote>
 </li>
-</ol>
 <p><img alt="" src="../img/XrXm2gw.png" /></p>
-<ol>
 <li>
 <p>Click on <code>Export Rom</code>, select where you want to save your rom and click <code>Save</code></p>
 </li>
 <li>
-<p>Your rom has been AP patched and optionally trimmed.</p>
-</li>
+<p>Your rom has been AP patched and optionally trimmed.</p></li>
 </ol>
 <hr />
 <h4 id="if-it-isnt-supported-by-ds-scene">If it isn't supported by DS-Scene:</h4>
@@ -444,17 +418,13 @@
 <li>
 <p>Check if there is a patch for your rom <a href="https://www.odrive.com/s/8443cc3a-862e-41d7-b064-09378f79f6b3-5965a89a">there</a></p>
 </li>
-</ol>
 <p>If there is one, continue to step 3.</p>
 <p>If there isn't one, then either your rom does not need to be AP patched or no patches have been found for your gamr/region. For both of those options, you cannot continue this guide.</p>
-<ol>
 <li>Open the <code>xdeltaUI.exe</code> , select your .xdelta patch that you got from the odrive, select your rom and select where you want the patched rom to be saved.</li>
-</ol>
 <blockquote>
 <p><span style="color:#930000"> <strong>DO NOT OVERWRITE YOUR ORIGINAL ROM</strong></p>
 </blockquote>
 <p>If you get any type of errors, please verify that you are using the right patch for your game and region.</p>
-<ol>
 <li>If the patching succeeds, your rom has been AP patched.</li>
 </ol>
 <hr />
